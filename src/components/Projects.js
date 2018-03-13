@@ -6,7 +6,7 @@ class Projects extends React.Component {
     return (
       <div className='projects'>
       
-      <h2>Projects</h2>    
+      <h1 className="pink-head">Projects</h1>    
       
       <div className='video-1'>
         <ReactPlayer url="https://youtu.be/pus0LMkY-4U"/>

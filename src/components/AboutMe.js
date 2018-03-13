@@ -8,7 +8,7 @@ class AboutMe extends React.Component {
         <div id='about-para'>
             <p>Fluent in JavaScript, Ruby, SQL</p>
             <p>Mizzou Alum 🐯</p>
-            <p>Loves programming and <a href="http://medium.com/kellydsample" target="_blank"> blogging</a> about it</p>
+            <p>Loves programming and <a href="https://medium.com/@kellydsample" target="_blank"> blogging</a> about it</p>
             <p>Lives in Alphabet City</p>
             <p>Passionate about problem solving, equity in education, running, and dogs</p>
             <p>Currently working on: Collaborative web socket <a href="http://github.com/kellystamps" target="_blank">project</a> with <a href="http://yamunanavada.com" target="_blank">Yamuna Navada</a></p>
@@ -16,6 +16,7 @@ class AboutMe extends React.Component {
         
         <div id='about-picture'>
           <img id='xmas-tree' src={require('../images/XmasTree.jpeg')} height="300"/>
+          <img id='rigby' src={require('../images/IMG_6998.jpg')} height="200"/>
         </div>
         
       </div>
