@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 View information about Kelly Sample.
 
 # Demo
-You can visit my website here: kellydsample.com .
+You can visit my website here: http://kellydsample.com.
 
 # Installation
 1. Clone down to your computer.
