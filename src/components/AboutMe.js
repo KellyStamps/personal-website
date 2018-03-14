@@ -6,12 +6,11 @@ class AboutMe extends React.Component {
       <div className='about'>
         <h1>Kelly Sample | <span className='pink-head'> Fullstack Web Developer</span></h1>
         <div id='about-para'>
-            <p>Fluent in JavaScript, Ruby, SQL</p>
-            <p>Mizzou Alum 🐯</p>
-            <p>Loves programming and <a href="https://medium.com/@kellydsample" target="_blank"> blogging</a> about it</p>
-            <p>Lives in Alphabet City</p>
-            <p>Passionate about problem solving, equity in education, running, and dogs</p>
-            <p>Currently working on: Collaborative web socket <a href="http://github.com/kellystamps" target="_blank">project</a> with <a href="http://yamunanavada.com" target="_blank">Yamuna Navada</a></p>
+            <p>After working in jobs I loved but didn't challenge me enough, I started teaching myself to code. A year later I'm a proud Flatiron School graduate.</p>
+            <p>I'm fluent in JavaScript, React, Ruby, Rails, SQL, and Git. </p> 
+            <p>I'm creating something new every week and <a href="https://medium.com/@kellydsample" target="_blank"> blogging</a> about it. 
+
+            My current project is <a href="http://github.com/kellystamps/personal-website" target="_blank">This portfolio site </a>. </p>
         </div>
         
         <div id='about-picture'>

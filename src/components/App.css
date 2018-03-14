@@ -7,9 +7,9 @@ body {
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 15px;
   text-align: center;
-  margin: 20px 20px 50px 20px;
+  margin: 20px 5px 50px 20px;
 }
 
 .projects > h1 {
@@ -19,7 +19,6 @@ body {
 
 .video-1 {
   grid-column: 1/2;
-  margin: auto;
 }
 
 .video-2 {
@@ -30,11 +29,15 @@ body {
   grid-column: 1/2;
 }
 
+.video-1, .video-2, .video-3 > p {
+  font-size: 20px;
+}
+
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
-  margin: 90px 20px 300px 20px;
+  margin: 50px 20px 300px 20px;
 }
 
 .about > h1 {
@@ -49,7 +52,10 @@ body {
 #about-para {
   grid-column: 1/3;
   margin: auto;
+  padding: 70px;
+  font-size: 20px;
 }
+
 
 #about-para > p > a {
   text-decoration: underline;
@@ -57,7 +63,7 @@ body {
 }
 
 #about-para > p > a:hover {
-  font-size: 25px;
+  font-size: 28px;
 }
 
 #about-picture {
@@ -78,6 +84,7 @@ body {
   grid-column: 1fr;
   grid-row: 1/2;
   box-shadow: 3px 3px 8px black;
+  margin: auto;
 }
 
 .contact {
