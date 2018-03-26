@@ -10,11 +10,12 @@ class AboutMe extends React.Component {
             <p>I'm fluent in JavaScript, React, Ruby, Rails, SQL, and Git. </p> 
             <p>I'm creating something new every week and <a href="https://medium.com/@kellydsample" target="_blank"> blogging</a> about it. 
 
-            My current project is <a href="http://github.com/kellystamps/personal-website" target="_blank">This portfolio site </a>. </p>
+            My current project is <a href="https://github.com/KellyStamps/auth-app" target="_blank">a React + Rails app</a> utilizing authorization and authentication. </p>
         </div>
         
         <div id='about-picture'>
           <img id='xmas-tree' src={require('../images/XmasTree.jpeg')} height="300"/>
+          <img id='prague' src={require('../images/IMG_1729.JPG')} height="250"/>
           <img id='rigby' src={require('../images/IMG_6998.jpg')} height="200"/>
         </div>
         
