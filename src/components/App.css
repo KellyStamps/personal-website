@@ -1,10 +1,20 @@
-body {
+html {
   background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../images/IMG_9252.JPG');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
   color: black;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Walter Turncoat', sans-serif;
 }
 
 .about {
