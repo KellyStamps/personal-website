@@ -8,6 +8,14 @@ class Projects extends React.Component {
 
       <h1>Projects</h1>
 
+        <div className='video-div'>
+          <h2>TopNotch Music</h2>
+          <ReactPlayer className='video' url="https://youtu.be/hJ1u4v2q6Ug" width="70%" height="70%"/>
+          <p>Log in and search musical artists.</p>
+          <p className="pink-head">JavaScript| React | Redux | last.fm API | HTML5 | CSS </p>
+          <p className="pink-head">JSON Web Token Authentication | Rails | PostgreSQL</p>
+        </div>
+
       <div className='video-div'>
         <h2>Code Challenger</h2>
         <ReactPlayer className='video' url="https://youtu.be/pus0LMkY-4U" width="70%" height="70%"/>
